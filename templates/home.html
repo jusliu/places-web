@@ -1,0 +1,30 @@
+{% extends "templates/base.html" %}
+{% block maincontent %}
+<div class='jumbotron topcolor' >
+	<div class='row'>
+		<div class='custom-mid column-offset'>
+			<div class="row" style="margin-top:0px;margin-bottom:20px;">
+				<div class="custom-mid column-offset" style="text-align: center;">
+					<h1 class='sheen' style='position:relative;font-size:70px;margin-top:90px;margin-bottom:0px;'><b><span></span>Fresh Eats</b></h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="custom-mid column-offset column-small">
+				<p style="margin-bottom:20px; text-align: center;">Let's get something good to eat.</p>
+				</div>
+			</div>
+			<div class="row">
+				<form accept-charset='UTF-8' action="/results" method="post" autocomplete="off" class="submitlocation">
+					<div class="column-offset whereareyou">
+						<input type="text" g-places-autocomplete ng-model="myScopeVar" placeholder="Where are you?" class="whereareyou-input" name="location">
+					</div>
+					<div class="whattoeat">
+						<input type="text" class="whattoeat-input" placeholder="What would you like to eat?" name="query">
+					</div>
+					<button type="submit" class="button" id="locationsubmit">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

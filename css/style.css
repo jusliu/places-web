@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+}
+
+#loading {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  display: block;
+  opacity: 0.7;
+  background-color: #fff;
+  z-index: 99;
+  text-align: center;
+}
+
+.footerwrapper {
+  min-height:100%;
+  height:100%;
+  width:100%;
+  margin-bottom:-266px;
+  position:relative;
+  display:table;
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  margin-top:50px;
+    background-color: rgba(255,255,255, 0.2);
+    color: inherit;
+}
+
+.topcolor {
+    color:white;
+    background-image: url('/img/background.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+  margin-top:0px;
+    width:100%;
+    height:100%;
+    background-size:cover;
+  border-radius: 0px !important;
+  position:fixed;
+}
+
+.results {
+  color: white;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.whereareyou {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 33.33333333%;
+}
+
+.whattoeat {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 25%;
+}
+
+.resultstable {
+  width: 100%;
+  margin-bottom: 20px;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+  display: table;
+}
+
+.resultstable-border {
+  border: 1px solid #ddd;
+}
+
+.resultstable > tbody > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  display: table-cell;
+}
+
+.resultstable-bordered > tbody > tr > td {
+  border: 1px solid #ddd;
+  display: table-cell;
+}
+
+ul.resizecolumns {
+  list-style: none;
+  font-size: 0px;
+  margin-left: -2.5%;
+}
+ul.resizecolumns.inside li {
+  width: 30.83%;
+}
+
+.sheen span {
+    background: url('/img/gradient-white.png') repeat-x;
+     position: absolute;
+}
+
+.magnify-food {
+    width: 310px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+.getBigger {
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+
+.textwrap {
+  float:left;
+  margin: 10px;
+  margin-right: 35px;
+}
+
+.custom-mid {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 83.33333333%;
+}
+
+.column-offset {
+  margin-left: 8.33333333%;
+}
+
+.column-small {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 83.33333333%;
+}
+
+.javascriptconfusion {
+  box-sizing: border-box;
+}
+
+.whereareyou-input {
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    background: white;
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 345px;
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    border: 1px solid #d9d9d9;
+}
+
+.whereareyou-input::-webkit-input-placeholder  {
+    color: black;
+}
+
+.whattoeat-input {
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    background: white;
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 247px;
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    border: 1px solid #d9d9d9;
+}
+
+.whattoeat-input::-webkit-input-placeholder  {
+    color: black;
+}
+
+.button {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    background: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid #d9d9d9;
+}

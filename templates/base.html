@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>Fresh Eats{% block title %}{% endblock title %}</title>
+	<link href="/css/style.css" type="text/css" rel="stylesheet">
+	<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+<div id="loading">
+    <span style="margin-left:40%"><h3>Loading...</h3></span>
+</div>
+<div class="javascriptconfusion">
+	<div class="footerwrapper">
+	
+        {% block maincontent %}
+	    {% endblock maincontent %}
+
+    <!-- jQuery -->
+    <script src="/js/jquery-1.11.1.min.js"></script>
+        <script src="/js/script.js"></script>
+    {% block addscripts %}
+    {% endblock addscripts %}
+</div>
+<!-- <![endif]-->
+</body>
+</html>
