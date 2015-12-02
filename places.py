@@ -1,7 +1,7 @@
 from googleplaces import GooglePlaces, types, ranking
 import datetime
 
-API_KEY = 'AIzaSyDl_XVM7CeB8wVn9y1exouM4klp85l_S9w'
+API_KEY = 'AIzaSyBFbiJfl5b3SJPCJJnQ3ugCnG8MbCE9aiY'
 google_places = GooglePlaces(API_KEY)
 
 class Place(object):
